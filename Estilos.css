@@ -1,0 +1,53 @@
+h1{
+    color: darkcyan;
+}
+
+p strong{
+    color:red;
+}
+
+.destacado{
+    color:darkgoldenrod
+}
+p .especial{
+    color: purple
+}
+
+table .especial{
+    color:orange;
+}
+table strong{
+    color:chocolate
+}
+tbody th{
+    color:red;
+}
+tfoot{
+    color: red;
+}
+table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #000;
+}
+
+h2{
+    color:blue
+}
+a{
+    color: red;
+}
+p em{
+    color: blue;
+}
+#adicional a{
+color:darkgreen
+}
+#adicional p{
+    color:olive;
+}
+#adicional #especial{
+    color: deeppink;
+}

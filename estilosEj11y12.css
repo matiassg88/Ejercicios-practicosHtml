@@ -1,0 +1,9 @@
+div[name="formulario"]{
+    width: 50%;
+    border:  outset black ;
+    padding: 2%;    
+}
+form .btn{
+    background-color: transparent;
+    color: black;
+}

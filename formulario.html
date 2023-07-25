@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--esto es css-->
+
+</head>
+
+<body>
+    <div >
+        <h1 title="Registrar">Registrar un user</h1>
+    </div>
+    <div >
+        <form action="ruta del metodo que va a manejar la info" method="post" enctype="multipart/form-data">
+            <!--el atributo "name" sera utilizado como una variable en un lenguaje de programacion (JAVA)-->
+            <div id="Nombre">
+                <label for="Nombre">Nombre del usuario</label><br>
+                <input type="text" id="Nombre" name="Nombre" value="tu nombre" required>
+            </div>
+            <div>
+                <label for="Contraseña">Contraseña</label><br>
+                <input type="password" id="Contraseña" name="Contrasena" placeholder="Contra" required>
+            </div>
+            <div>
+                <label for="Edad">Edad</label><br>
+                <input type="number" id="Edad" name="Edad" required>
+            </div>
+            <div>
+                <label for="Fecha">Fecha de nacimiento</label><br>
+                <input type="date" id="Fecha" name="FechDeNacimiento" required>
+            </div>
+            <div>
+                <label for="Sexo">Sexo</label><br>
+                <input type="radio" id="Fem" name="Sexo" value="1">
+                <label for="Fem">Fem.</label><br>
+                <input type="radio" id="Masc" name="Sexo" value="2">
+                <label for="Masc">Masc.</label><br>
+                <input type="radio" id="Otre" name="Sexo" value="3">
+                <label for="Otre">Otre</label><br>
+            </div>
+            <div>
+                <label for="LugarNac">Lugar de nacimiento</label><br>
+                <select id="LugarNac" name="LugarNac" required>
+                    <option>Argentina</option>
+                    <option>Brazil</option>
+                    <option>Mongolia</option>
+                    <option>Invierno</option>
+                </select>
+
+            </div>
+            <div>
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
